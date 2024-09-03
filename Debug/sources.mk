@@ -24,5 +24,8 @@ C_DEPS :=
 SUBDIRS := \
 Core/Src \
 Core/Startup \
+Core/User/libs/host \
+Core/User/libs/rc522 \
+Core/User/utils \
 Drivers/STM32L1xx_HAL_Driver/Src \
 

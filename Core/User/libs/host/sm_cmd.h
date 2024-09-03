@@ -29,6 +29,7 @@ extern "C" {
 #define CMD_HOLDING_HALLWAY_HUMAN_DETECT     15
 #define CMD_HOLDING_DEV_SEND_SYNC_DATA       16
 #define CMD_HOLDING_SET_AUTO_FAN             17
+#define CMD_HOLDING_SET_DOOR_KEY             18
 #define CMD_HOLDING_BLINK_LED_TEST           20
 
 

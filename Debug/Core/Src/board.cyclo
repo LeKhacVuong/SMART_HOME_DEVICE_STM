@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm3.h:1876:26:ITM_SendChar	4
+../Core/Src/board.c:16:5:_write	2
+../Core/Src/board.c:24:5:compareTime	6
+../Core/Src/board.c:37:6:isInTime	8
+../Core/Src/board.c:57:6:increaseTimeMin	4
+../Core/Src/board.c:76:6:board_init	1
+../Core/Src/board.c:85:6:SystemClock_Config	3
+../Core/Src/board.c:126:13:MX_SPI2_Init	2
+../Core/Src/board.c:161:13:MX_TIM4_Init	9
+../Core/Src/board.c:228:13:MX_USART2_UART_Init	2
+../Core/Src/board.c:259:13:MX_GPIO_Init	1
+../Core/Src/board.c:308:6:Error_Handler	1

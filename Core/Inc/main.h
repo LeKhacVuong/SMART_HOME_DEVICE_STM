@@ -27,7 +27,7 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f1xx_hal.h"
+#include "stm32l1xx_hal.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -59,38 +59,20 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define DHT11_CRL_Pin GPIO_PIN_2
-#define DHT11_CRL_GPIO_Port GPIOA
-#define SPI1_CS_Pin GPIO_PIN_3
-#define SPI1_CS_GPIO_Port GPIOA
-#define SPI1_RST_Pin GPIO_PIN_4
-#define SPI1_RST_GPIO_Port GPIOA
-#define TX_3_Pin GPIO_PIN_10
-#define TX_3_GPIO_Port GPIOB
-#define RX_3_Pin GPIO_PIN_11
-#define RX_3_GPIO_Port GPIOB
-#define CHL_HALL_Pin GPIO_PIN_8
-#define CHL_HALL_GPIO_Port GPIOA
-#define CHL_LIV_Pin GPIO_PIN_9
-#define CHL_LIV_GPIO_Port GPIOA
-#define CHL_KIT_Pin GPIO_PIN_10
-#define CHL_KIT_GPIO_Port GPIOA
-#define CHL_BED_Pin GPIO_PIN_11
-#define CHL_BED_GPIO_Port GPIOA
-#define OUT_DOOR_RL_Pin GPIO_PIN_3
-#define OUT_DOOR_RL_GPIO_Port GPIOB
-#define OUT_BUZZ_Pin GPIO_PIN_4
-#define OUT_BUZZ_GPIO_Port GPIOB
-#define OUT_FAN_RL_Pin GPIO_PIN_5
-#define OUT_FAN_RL_GPIO_Port GPIOB
-#define IN_FIRE_SS_Pin GPIO_PIN_6
-#define IN_FIRE_SS_GPIO_Port GPIOB
-#define IN_SMOKE_SS_Pin GPIO_PIN_7
-#define IN_SMOKE_SS_GPIO_Port GPIOB
-#define IN_DOOR_BT_Pin GPIO_PIN_8
-#define IN_DOOR_BT_GPIO_Port GPIOB
-#define IN_HUMAN_SS_Pin GPIO_PIN_9
-#define IN_HUMAN_SS_GPIO_Port GPIOB
+#define IN_FIRE_SS_Pin GPIO_PIN_1
+#define IN_FIRE_SS_GPIO_Port GPIOC
+#define IN_HUMAN_DECT_Pin GPIO_PIN_0
+#define IN_HUMAN_DECT_GPIO_Port GPIOC
+#define SPI2_RST_Pin GPIO_PIN_11
+#define SPI2_RST_GPIO_Port GPIOB
+#define SPI2_CS_Pin GPIO_PIN_12
+#define SPI2_CS_GPIO_Port GPIOB
+#define OUT_BUZZER_Pin GPIO_PIN_8
+#define OUT_BUZZER_GPIO_Port GPIOA
+#define OUT_FAN_Pin GPIO_PIN_9
+#define OUT_FAN_GPIO_Port GPIOA
+#define OUT_DOOR_Pin GPIO_PIN_10
+#define OUT_DOOR_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 

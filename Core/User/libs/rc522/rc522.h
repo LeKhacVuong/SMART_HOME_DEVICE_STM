@@ -16,11 +16,11 @@
 //Maximum length of the array
 #define MAX_LEN 16
 
-#define HSPI_INSTANCE				&hspi1
-#define MFRC522_CS_PORT				SPI1_CS_GPIO_Port
-#define MFRC522_CS_PIN				SPI1_CS_Pin
-#define MFRC522_RST_PORT			SPI1_RST_GPIO_Port
-#define MFRC522_RST_PIN				SPI1_RST_Pin
+#define HSPI_INSTANCE				&hspi2
+#define MFRC522_CS_PORT				SPI2_CS_GPIO_Port
+#define MFRC522_CS_PIN				SPI2_CS_Pin
+#define MFRC522_RST_PORT			SPI2_RST_GPIO_Port
+#define MFRC522_RST_PIN				SPI2_RST_Pin
 
 // MFRC522 commands. Described in chapter 10 of the datasheet.
 #define PCD_IDLE              0x00               // no action, cancels current command execution

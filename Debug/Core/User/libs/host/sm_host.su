@@ -1,0 +1,13 @@
+../Core/User/libs/host/sm_host.c:46:12:sm_host_create	32	static
+../Core/User/libs/host/sm_host.c:74:12:sm_host_create_default	24	static
+../Core/User/libs/host/sm_host.c:98:9:sm_host_destroy	16	static
+../Core/User/libs/host/sm_host.c:120:9:sm_host_set_addr	16	static
+../Core/User/libs/host/sm_host.c:128:9:sm_host_reg_handle	24	static
+../Core/User/libs/host/sm_host.c:138:9:sm_host_set_host_if	24	static
+../Core/User/libs/host/sm_host.c:148:9:sm_host_set_mode	16	static
+../Core/User/libs/host/sm_host.c:156:9:sm_host_get_mode	16	static
+../Core/User/libs/host/sm_host.c:163:9:sm_host_send_cmd	304	static
+../Core/User/libs/host/sm_host.c:194:9:sm_host_send_cmd_sync	56	static
+../Core/User/libs/host/sm_host.c:234:9:sm_host_send_response	304	static
+../Core/User/libs/host/sm_host.c:262:5:sm_host_process	40	static
+../Core/User/libs/host/sm_host.c:334:9:sm_host_asyn_feed	32	static

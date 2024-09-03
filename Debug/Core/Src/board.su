@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm3.h:1876:26:ITM_SendChar	16	static,ignoring_inline_asm
+../Core/Src/board.c:16:5:_write	32	static
+../Core/Src/board.c:24:5:compareTime	16	static
+../Core/Src/board.c:37:6:isInTime	24	static
+../Core/Src/board.c:57:6:increaseTimeMin	16	static
+../Core/Src/board.c:76:6:board_init	8	static
+../Core/Src/board.c:85:6:SystemClock_Config	80	static
+../Core/Src/board.c:126:13:MX_SPI2_Init	8	static
+../Core/Src/board.c:161:13:MX_TIM4_Init	48	static
+../Core/Src/board.c:228:13:MX_USART2_UART_Init	8	static
+../Core/Src/board.c:259:13:MX_GPIO_Init	40	static
+../Core/Src/board.c:308:6:Error_Handler	4	static,ignoring_inline_asm

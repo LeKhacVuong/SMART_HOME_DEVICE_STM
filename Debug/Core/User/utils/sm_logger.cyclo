@@ -1,0 +1,5 @@
+../Core/User/utils/sm_logger.c:22:13:logger_put	1
+../Core/User/utils/sm_logger.c:43:9:sm_logger_init	1
+../Core/User/utils/sm_logger.c:54:9:sm_logger_set_level	1
+../Core/User/utils/sm_logger.c:62:11:sm_logger_get_level	1
+../Core/User/utils/sm_logger.c:71:6:sm_logger_show	4

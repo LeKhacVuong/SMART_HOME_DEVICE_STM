@@ -1,7 +1,7 @@
 /*
  * board.h
  *
- *  Created on: Aug 2, 2024
+ *  Created on: Aug 14, 2024
  *      Author: lekhacvuong
  */
 
@@ -9,6 +9,7 @@
 #define INC_BOARD_H_
 
 #include "main.h"
+#include "stdio.h"
 #include "stdbool.h"
 
 enum LIGHT{
@@ -37,10 +38,7 @@ typedef struct dev_info_t{
 
     uint8_t m_doorStt;
     uint8_t m_bedFan;
-    uint8_t m_humidity;
-    uint8_t m_temperature;
     uint8_t m_fireSensor;
-    uint8_t m_smokeSensor;
     uint8_t m_fireBuzzer;
     uint8_t m_hallwayDetectHuman;
 
@@ -49,21 +47,26 @@ typedef struct dev_info_t{
     devTime_t m_autoFanStop;
 
     light_info_t m_light[LIGHT_NUMBER];
+
+    uint8_t m_isFire;
+
+    char m_doorKey[8];
+
+    uint8_t m_humi;
+    uint8_t m_temp;
 }dev_info_t;
 
-extern SPI_HandleTypeDef hspi1;
+extern SPI_HandleTypeDef hspi2;
 
-extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim4;
 
-extern UART_HandleTypeDef huart3;
+extern UART_HandleTypeDef huart2;
+
 
 void board_init();
 
 void increaseTimeMin(devTime_t* _time);
 bool isInTime(devTime_t _current, devTime_t _timeStart, devTime_t _timeStop);
 int compareTime(devTime_t _first, devTime_t _second);
-
-
-
 
 #endif /* INC_BOARD_H_ */

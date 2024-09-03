@@ -79,7 +79,7 @@ void sm_logger_show(LOG_LEVEL _level, const char* _tag, const char* _log, ...){
 
     va_start(args, _log);
 
-    len = snprintf(buf, LOG_BUFFER_SIZE, "%s#%s: %s: ",log_level_colors[_level], log_level_names[_level], _tag);
+    len = snprintf(buf, LOG_BUFFER_SIZE, "#%s: %s: ", log_level_names[_level], _tag);
     len += vsnprintf(buf + len, LOG_BUFFER_SIZE - len, _log, args);
     va_end(args);
 

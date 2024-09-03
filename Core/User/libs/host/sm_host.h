@@ -15,7 +15,7 @@ extern "C"{
 
 #define SM_HOST_ADDR_DEFAULT    0x01
 #define SM_HOST_MAX_ADDR        0x7F
-#define SM_HOST_MAX_BUFFER      (1024*4)
+#define SM_HOST_MAX_BUFFER      (256)
 
 #define SM_HOST_MAX_COMMUNICATION_BUFFER_SIZE 256
 
